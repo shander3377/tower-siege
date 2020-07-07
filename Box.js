@@ -31,8 +31,8 @@ class Box {
         World.remove(world, this.body)
         push()
         this.visiblity = this.visiblity-5
-        tint(255,this.visiblity)
-        rect(0, 0, this.width, this.height);
+       
+ 
         pop()
       }
     }
